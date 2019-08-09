@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc3e9c83b7679ce4b9fc0873cdd836a9
+guid: 3f116fca74fc1134cb351e6c6c51f28c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,20 +7,27 @@ ModelImporter:
     100002: //RootNode
     100004: Factory_Base
     100006: Ladder
+    100008: CeilingSingle
     400000: Ceiling
     400002: //RootNode
     400004: Factory_Base
     400006: Ladder
+    400008: CeilingSingle
     2100000: 'Material #103'
     2300000: Ceiling
     2300002: Factory_Base
     2300004: Ladder
+    2300006: CeilingSingle
     3300000: Ceiling
     3300002: Factory_Base
     3300004: Ladder
+    3300006: CeilingSingle
     4300000: Factory_Base
     4300002: Ladder
     4300004: Ceiling
+    4300006: CeilingSingle
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -52,7 +59,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -73,8 +80,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -101,7 +108,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
