@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: Trigger
+  m_Name: ViveButton
   m_EditorClassIdentifier: 
   category: General
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
-    name: Trigger
+    name: "ViveButton\u7269\u4EF6\u8FD4\u56DE"
     startState: Start
     states:
     - name: Start
@@ -24,8 +24,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62
-        y: 100
+        x: 363
+        y: 202
         width: 100
         height: 32
       isBreakpoint: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u627E\u5230\u677F\u6A5F"
+        toState: "\u627E\u5230Button"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -140,13 +140,13 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 0000000000000000010000000000000001000000010000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
-    - name: "\u6309\u4E0B\u677F\u6A5F"
+    - name: "\u6309\u4E0BButton"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 246
-        y: 204
+        x: 547
+        y: 306
         width: 100
         height: 32
       isBreakpoint: 0
@@ -157,28 +157,28 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u555F\u52D5\u529F\u80FD"
+        toState: "\u555F\u52D5"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetRotation
+        - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.FloatCompare
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000008000000
-        actionHashCodes: 6ab449041bcdca04
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 5552ad051bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/Trigger
+            name: Obj/Button
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -196,7 +196,13 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: Float/TriggerX
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: Float/ButtonY
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -208,13 +214,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/TriggerX
+          name: Float/ButtonY
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 17
+          value: -0.0007
         - useVariable: 0
           name: 
           tooltip: 
@@ -243,30 +243,23 @@ MonoBehaviour:
           value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
-        fsmQuaternionParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0, w: 0}
+        fsmQuaternionParams: []
         stringParams:
         - Go
-        - 
         - Go
+        - 
         byteData: 010000000101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000230000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000f00000017000000170000001700000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000f00000017000000170000001700000001000000
         paramName:
         - gameObject
-        - quaternion
         - vector
-        - xAngle
-        - yAngle
-        - zAngle
+        - x
+        - y
+        - z
         - space
         - everyFrame
         - float1
@@ -276,15 +269,15 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000000000000000000000000000100000002000000000000000400000003000000040000000500000000000000010000000200000005000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000001000000
-    - name: "\u9B06\u958B\u677F\u6A5F"
+        paramDataPos: 0000000000000000000000000100000002000000000000000400000003000000040000000500000000000000010000000200000005000000
+        paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000001000000
+    - name: "\u9B06\u958BButton"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 559
-        y: 209
+        x: 860
+        y: 311
         width: 100
         height: 32
       isBreakpoint: 0
@@ -295,28 +288,28 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u95DC\u9589\u529F\u80FD"
+        toState: "\u95DC\u9589"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetRotation
+        - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.FloatCompare
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000008000000
-        actionHashCodes: 6ab449041bcdca04
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 5552ad051bcdca04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/Trigger
+            name: Obj/Button
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -334,7 +327,13 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: Float/TriggerX
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: Float/ButtonY
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -346,13 +345,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/TriggerX
+          name: Float/ButtonY
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -362,7 +355,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 15
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -381,30 +374,23 @@ MonoBehaviour:
           value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
-        fsmQuaternionParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0, w: 0}
+        fsmQuaternionParams: []
         stringParams:
-        - 
         - Go
+        - 
         - 
         byteData: 010000000101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000230000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000f00000017000000170000001700000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000f0000000f0000000f00000017000000170000001700000001000000
         paramName:
         - gameObject
-        - quaternion
         - vector
-        - xAngle
-        - yAngle
-        - zAngle
+        - x
+        - y
+        - z
         - space
         - everyFrame
         - float1
@@ -414,15 +400,15 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 000000000000000000000000000000000100000002000000000000000400000003000000040000000500000000000000010000000200000005000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000001000000
-    - name: "\u555F\u52D5\u529F\u80FD"
+        paramDataPos: 0000000000000000000000000100000002000000000000000400000003000000040000000500000000000000010000000200000005000000
+        paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000001000000
+    - name: "\u555F\u52D5"
       description: 
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 401
-        y: 159
+        x: 702
+        y: 261
         width: 100
         height: 32
       isBreakpoint: 0
@@ -433,7 +419,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u9B06\u958B\u677F\u6A5F"
+        toState: "\u9B06\u958BButton"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -455,7 +441,7 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 1
+        - target: 2
           excludeSelf:
             useVariable: 0
             name: 
@@ -464,19 +450,19 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           gameObject:
-            ownerOption: 0
+            ownerOption: 1
             gameObject:
-              useVariable: 0
-              name: 
+              useVariable: 1
+              name: Obj/Target
               tooltip: 
-              showInInspector: 0
+              showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: String/Fsm
             tooltip: 
-            showInInspector: 0
+            showInInspector: 1
             networkSync: 0
             value: 
           sendToChildren:
@@ -509,7 +495,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Process
+        - ViveButton
         - Go
         byteData: 00
         arrayParamSizes: 
@@ -525,13 +511,13 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 0000000000000000000000000000000001000000
         paramByteDataSize: 0000000000000000000000000100000000000000
-    - name: "\u95DC\u9589\u529F\u80FD"
+    - name: "\u95DC\u9589"
       description: 
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 396
-        y: 253
+        x: 697
+        y: 355
         width: 100
         height: 32
       isBreakpoint: 0
@@ -542,7 +528,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u6309\u4E0B\u677F\u6A5F"
+        toState: "\u6309\u4E0BButton"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -564,7 +550,7 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 1
+        - target: 2
           excludeSelf:
             useVariable: 0
             name: 
@@ -573,19 +559,19 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           gameObject:
-            ownerOption: 0
+            ownerOption: 1
             gameObject:
-              useVariable: 0
-              name: 
+              useVariable: 1
+              name: Obj/Target
               tooltip: 
-              showInInspector: 0
+              showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: String/Fsm
             tooltip: 
-            showInInspector: 0
+            showInInspector: 1
             networkSync: 0
             value: 
           sendToChildren:
@@ -618,7 +604,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Rest
+        - ViveButtonOff
         - Go
         byteData: 00
         arrayParamSizes: 
@@ -634,13 +620,13 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 0000000000000000000000000000000001000000
         paramByteDataSize: 0000000000000000000000000100000000000000
-    - name: "\u627E\u5230\u677F\u6A5F"
+    - name: "\u627E\u5230Button"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 252
-        y: 113
+        x: 553
+        y: 215
         width: 100
         height: 48
       isBreakpoint: 0
@@ -659,7 +645,7 @@ MonoBehaviour:
           name: Y
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u6309\u4E0B\u677F\u6A5F"
+        toState: "\u6309\u4E0BButton"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -677,13 +663,13 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: Obj/Trigger
+          name: Obj/Button
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         - useVariable: 1
-          name: Obj/Trigger
+          name: Obj/Button
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -709,7 +695,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: trigger
+          value: button
         - useVariable: 0
           name: 
           tooltip: 
@@ -756,19 +742,16 @@ MonoBehaviour:
         paramDataPos: 000000000000000001000000000000000100000000000000010000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000001000000
     events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
     - name: N
       isSystemEvent: 0
       isGlobal: 0
-    - name: Process
+    - name: ViveButton
       isSystemEvent: 0
       isGlobal: 1
-    - name: Rest
+    - name: ViveButtonOff
       isSystemEvent: 0
       isGlobal: 1
     - name: Y
@@ -778,14 +761,20 @@ MonoBehaviour:
     variables:
       floatVariables:
       - useVariable: 1
-        name: Float/TriggerX
+        name: Float/ButtonY
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       intVariables: []
       boolVariables: []
-      stringVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: String/Fsm
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -793,21 +782,21 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Obj/Hit
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      - useVariable: 1
         name: Obj/Model
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
-        name: Obj/Trigger
+        name: Obj/Button
         tooltip: 
         showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/Target
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: {fileID: 0}
       objectVariables: []
@@ -817,8 +806,8 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
-    description: "\u5075\u6E2C\u677F\u6A5F,\u4E26\u5C0D\u540C\u968E\u5C64\u767C\u51FA\u8A0A\u606F"
+      variableCategoryIDs: 0000000000000000000000000000000000000000
+    description: 
     docUrl: 
     showStateLabel: 0
     maxLoopCount: 0
@@ -832,7 +821,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 7
+    editorFlags: 1
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
