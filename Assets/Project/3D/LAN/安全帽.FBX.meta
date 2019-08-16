@@ -13,6 +13,7 @@ ModelImporter:
     100014: Object001
     100016: //RootNode
     100018: "\u5B89\u5168\u5E3D"
+    100020: "\u5B89\u5168\u5E3Dcolinder"
     400000: Bone001
     400002: Bone002
     400004: Bone003
@@ -23,19 +24,24 @@ ModelImporter:
     400014: Object001
     400016: //RootNode
     400018: "\u5B89\u5168\u5E3D"
+    400020: "\u5B89\u5168\u5E3Dcolinder"
     2100000: 19 - Default
     2100002: 21 - Default
     2100004: PLASTIC_BLACK
     2100006: 13 - Default
     2100008: INSIDE
     2100010: pLASTIC_yELLOW
+    2100012: No Name
     2300000: Line002
     2300002: "\u5B89\u5168\u5E3D"
+    2300004: "\u5B89\u5168\u5E3Dcolinder"
     3300000: Line002
     3300002: "\u5B89\u5168\u5E3D"
+    3300004: "\u5B89\u5168\u5E3Dcolinder"
     4300000: "\u5B89\u5168\u5E3D"
     4300002: Line002
     4300004: Object001
+    4300006: "\u5B89\u5168\u5E3Dcolinder"
     7400000: Take 001
     9500000: //RootNode
     13700000: Object001
