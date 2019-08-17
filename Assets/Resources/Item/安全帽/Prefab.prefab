@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81869293334919161}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0019, y: -0.00039994717, z: 0.00049972534}
+  m_LocalPosition: {x: 0.0003762818, y: 0.027026802, z: 0.00050785486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2938298305668327914}
@@ -103,7 +103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612991791457931521}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0019, y: -0.0004, z: 0.0005}
+  m_LocalPosition: {x: 0.0003762818, y: 0.02702675, z: 0.00050812954}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2938298305668327914}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 370211954472420908}
   - component: {fileID: 4018197222446344253}
   m_Layer: 0
-  m_Name: "\u5B89\u5168\u5E3D"
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486368700999442502}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0019, y: -0.00039994717, z: 0.00049972534}
+  m_LocalPosition: {x: 0.0003762818, y: 0.027026802, z: 0.00050785486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2938298305668327914}
@@ -271,7 +271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2840419301666284455}
   m_LocalRotation: {x: -0.00000063087225, y: -0.0000006730411, z: 0.6838812, w: 0.72959334}
-  m_LocalPosition: {x: 0.07212372, y: -0.03412676, z: -0.01020813}
+  m_LocalPosition: {x: 0.0706, y: -0.0067, z: -0.0102}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2938298305668327928}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 2938298305668327914}
   - component: {fileID: 1183759732012171567}
   m_Layer: 0
-  m_Name: "\u5B89\u5168\u5E3D"
+  m_Name: Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +326,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 90ce664343e28e44cbac7908dbfe9522, type: 3}
+  m_Mesh: {fileID: 4300006, guid: 90ce664343e28e44cbac7908dbfe9522, type: 3}
 --- !u!1 &2938298305668036048
 GameObject:
   m_ObjectHideFlags: 0

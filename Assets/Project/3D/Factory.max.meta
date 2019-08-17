@@ -8,24 +8,81 @@ ModelImporter:
     100004: Factory_Base
     100006: Ladder
     100008: CeilingSingle
+    100010: Box001
+    100012: Box002
+    100014: Box003
+    100016: Box004
+    100018: Plane001
+    100020: Plane002
+    100022: Plane003
+    100024: Plane004
+    100026: SmallShed
+    100028: C
+    100030: H
     400000: Ceiling
     400002: //RootNode
     400004: Factory_Base
     400006: Ladder
     400008: CeilingSingle
+    400010: Box001
+    400012: Box002
+    400014: Box003
+    400016: Box004
+    400018: Plane001
+    400020: Plane002
+    400022: Plane003
+    400024: Plane004
+    400026: SmallShed
+    400028: C
+    400030: H
     2100000: 'Material #103'
+    2100002: 'Material #102 Slot #7'
+    2100004: No Name
     2300000: Ceiling
     2300002: Factory_Base
     2300004: Ladder
     2300006: CeilingSingle
+    2300008: Box001
+    2300010: Box002
+    2300012: Box003
+    2300014: Box004
+    2300016: Plane001
+    2300018: Plane002
+    2300020: Plane003
+    2300022: Plane004
+    2300024: SmallShed
+    2300026: C
+    2300028: H
     3300000: Ceiling
     3300002: Factory_Base
     3300004: Ladder
     3300006: CeilingSingle
+    3300008: Box001
+    3300010: Box002
+    3300012: Box003
+    3300014: Box004
+    3300016: Plane001
+    3300018: Plane002
+    3300020: Plane003
+    3300022: Plane004
+    3300024: SmallShed
+    3300026: C
+    3300028: H
     4300000: Factory_Base
     4300002: Ladder
     4300004: Ceiling
     4300006: CeilingSingle
+    4300008: Box001
+    4300010: Plane001
+    4300012: Box002
+    4300014: Plane002
+    4300016: Box003
+    4300018: Box004
+    4300020: Plane003
+    4300022: Plane004
+    4300024: SmallShed
+    4300026: H
+    4300028: C
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
@@ -80,7 +137,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 0.015
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
