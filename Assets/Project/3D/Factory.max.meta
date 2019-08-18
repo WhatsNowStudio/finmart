@@ -19,6 +19,8 @@ ModelImporter:
     100026: SmallShed
     100028: C
     100030: H
+    100032: RopeSupport
+    100034: SteelCable
     400000: Ceiling
     400002: //RootNode
     400004: Factory_Base
@@ -35,6 +37,8 @@ ModelImporter:
     400026: SmallShed
     400028: C
     400030: H
+    400032: RopeSupport
+    400034: SteelCable
     2100000: 'Material #103'
     2100002: 'Material #102 Slot #7'
     2100004: No Name
@@ -53,6 +57,8 @@ ModelImporter:
     2300024: SmallShed
     2300026: C
     2300028: H
+    2300030: RopeSupport
+    2300032: SteelCable
     3300000: Ceiling
     3300002: Factory_Base
     3300004: Ladder
@@ -68,6 +74,8 @@ ModelImporter:
     3300024: SmallShed
     3300026: C
     3300028: H
+    3300030: RopeSupport
+    3300032: SteelCable
     4300000: Factory_Base
     4300002: Ladder
     4300004: Ceiling
@@ -83,6 +91,8 @@ ModelImporter:
     4300024: SmallShed
     4300026: H
     4300028: C
+    4300030: RopeSupport
+    4300032: SteelCable
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
@@ -137,7 +147,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.013
+    previousCalculatedGlobalScale: 0.014
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
