@@ -6,6 +6,10 @@ TagManager:
   tags:
   - projectile
   - FxTemporaire
+  - SlipWalk
+  - FailWalk
+  - SafeWalk
+  - MoveCollider
   layers:
   - Default
   - TransparentFX
