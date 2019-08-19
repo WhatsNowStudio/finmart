@@ -198,7 +198,10 @@ ModelImporter:
     400190: upperarm_twist_01_r
     400192: //RootNode
     2100000: man
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: rp_eric_rigged_001_geo
+    4300002: Eric
     7400000: Take 001
     9500000: //RootNode
     13700000: rp_eric_rigged_001_geo
