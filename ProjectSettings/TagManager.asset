@@ -10,6 +10,7 @@ TagManager:
   - FailWalk
   - SafeWalk
   - MoveCollider
+  - Floor
   layers:
   - Default
   - TransparentFX
