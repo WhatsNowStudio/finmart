@@ -183,12 +183,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 664010912}
+      objectReference: {fileID: 1580015283}
     - target: {fileID: 1744929773382360388, guid: 40278f15ee8046b47a3a1a18759fc5e1,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1281265117}
+      objectReference: {fileID: 1602395667}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40278f15ee8046b47a3a1a18759fc5e1, type: 3}
 --- !u!1 &47170726 stripped
@@ -203,7 +203,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7815432215454667649}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &664010912
+--- !u!1 &875552663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7815432215256239126, guid: 008d1f3d1400cec49a6299d15221fb37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7815432215454667649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1425764984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7815432216730743843, guid: 008d1f3d1400cec49a6299d15221fb37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7815432215454667649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &1580015283
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -237,13 +249,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &875552663 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7815432215256239126, guid: 008d1f3d1400cec49a6299d15221fb37,
-    type: 3}
-  m_PrefabInstance: {fileID: 7815432215454667649}
-  m_PrefabAsset: {fileID: 0}
---- !u!43 &1281265117
+--- !u!43 &1602395667
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -403,12 +409,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1425764984 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7815432216730743843, guid: 008d1f3d1400cec49a6299d15221fb37,
-    type: 3}
-  m_PrefabInstance: {fileID: 7815432215454667649}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836492151
 GameObject:
   m_ObjectHideFlags: 0
